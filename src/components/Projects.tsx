@@ -20,7 +20,7 @@ const projects = [
     url: null,
   },
   {
-    title: "Fin Coach",
+    title: "FinCoachBD",
     description:
       "Apply Instantly for Loan, SME Loan & Credit Card from Anywhere to Your Desired Bangladeshi Bank Anytime.",
     technologies: [

@@ -45,7 +45,7 @@ const skillCategories = [
 
 function Skills() {
   return (
-    <section id="skills" className="py-6">
+    <section id="skills" className="py-5">
       <Container>
         <div className="text-center mb-5">
           <h2 className="display-7 fw-bold mb-1">Skills & Expertise</h2>

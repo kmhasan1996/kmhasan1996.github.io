@@ -5,7 +5,7 @@ const experiences = [
     title: "Sr. Software Engineer",
     company: "Technology and Business Solutions Ltd.",
     period: "Jan 2023 - Present",
-    duration: "2 Years 4 Months",
+    duration: calculateDuration('Jan 2023'),
     responsibilities: [
       "Analyze system requirements and prioritize tasks",
       "Write clean, testable code using .NET programming languages",
@@ -43,6 +43,25 @@ const experiences = [
     ],
   },
 ]
+
+function calculateDuration(startPeriod: string): string {
+  const [monthStr, yearStr] = startPeriod.split(" ");
+  const startDate = new Date(`${monthStr} 1, ${yearStr}`);
+  const now = new Date();
+
+  let months =
+    (now.getFullYear() - startDate.getFullYear()) * 12 +
+    (now.getMonth() - startDate.getMonth());
+
+  const years = Math.floor(months / 12);
+  months = months % 12;
+
+  const yearLabel = years > 0 ? `${years} Year${years > 1 ? "s" : ""}` : "";
+  const monthLabel = months > 0 ? `${months} Month${months > 1 ? "s" : ""}` : "";
+
+  return [yearLabel, monthLabel].filter(Boolean).join(" ");
+}
+
 
 function Experience() {
   return (
