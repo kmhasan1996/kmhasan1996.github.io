@@ -92,7 +92,7 @@ function Projects() {
   return (
     <section id="projects" className="py-5">
       <Container>
-        <div className="text-center mb-5">
+        <div className="text-center mb-5" data-aos="fade-up">
           <h2 className="display-7 fw-bold mb-1">Recent Projects</h2>
           <div className="mx-auto" style={{ height: "4px", width: "80px", backgroundColor: "var(--bs-primary)" }}></div>
         
@@ -101,7 +101,7 @@ function Projects() {
         <Row className="g-4">
           {projects.map((project, index) => (
             <Col key={index} md={6} lg={4}>
-              <Card className="h-100 border-0 shadow-sm">
+              <Card className="h-100 border-0 shadow-sm" data-aos="fade-up" data-aos-delay={index * 50}>
                 <Card.Body className="d-flex flex-column">
                   <div className="d-flex justify-content-between align-items-start mb-3">
                     <h3 className="fs-5 fw-semibold">{project.title}</h3>

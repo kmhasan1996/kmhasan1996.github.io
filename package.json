@@ -12,6 +12,7 @@
     "@types/node": "^16.18.126",
     "@types/react": "^19.1.4",
     "@types/react-dom": "^19.1.5",
+    "aos": "^2.3.4",
     "bootstrap": "^5.3.6",
     "bootstrap-icons": "^1.13.1",
     "gh-pages": "^6.3.0",

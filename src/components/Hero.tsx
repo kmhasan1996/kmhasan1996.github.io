@@ -18,11 +18,15 @@ function Hero() {
             </p>
 
             <div className="d-flex flex-wrap justify-content-center gap-3 mb-5">
-              <Button href="#contact" variant="primary" size="lg">
-                Contact Me
+               <Button href="https://drive.google.com/file/d/1owuQ1OjMzqrd4A8uinbsKirs0ZDffTX-/view?usp=sharing" 
+                variant="primary" size="lg" target="_blank" >
+                 <i className="bi bi-download "></i> Download CV
+              </Button>
+              <Button href="#contact" variant="outline-secondary" size="lg">
+                <i className="bi bi-telephone text-primary"></i> Contact Me
               </Button>
               <Button href="#projects" variant="outline-secondary" size="lg">
-                View Projects
+               <i className="bi bi-list-task text-primary"></i> View Projects
               </Button>
             </div>
 

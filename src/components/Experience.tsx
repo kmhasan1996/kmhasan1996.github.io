@@ -1,11 +1,12 @@
-import { Container, Row, Col, Card } from "react-bootstrap"
+import { Container, Card } from "react-bootstrap"
+import "./Experience.css"
 
 const experiences = [
   {
     title: "Sr. Software Engineer",
     company: "Technology and Business Solutions Ltd.",
     period: "Jan 2023 - Present",
-    duration: calculateDuration('Jan 2023'),
+    duration: calculateDuration("Jan 2023"),
     responsibilities: [
       "Analyze system requirements and prioritize tasks",
       "Write clean, testable code using .NET programming languages",
@@ -44,42 +45,41 @@ const experiences = [
   },
 ]
 
-function calculateDuration(startPeriod: string): string {
-  const [monthStr, yearStr] = startPeriod.split(" ");
-  const startDate = new Date(`${monthStr} 1, ${yearStr}`);
-  const now = new Date();
+function calculateDuration(startPeriod:String) {
+  const [monthStr, yearStr] = startPeriod.split(" ")
+  const startDate = new Date(`${monthStr} 1, ${yearStr}`)
+  const now = new Date()
 
-  let months =
-    (now.getFullYear() - startDate.getFullYear()) * 12 +
-    (now.getMonth() - startDate.getMonth());
+  let months = (now.getFullYear() - startDate.getFullYear()) * 12 + (now.getMonth() - startDate.getMonth())
 
-  const years = Math.floor(months / 12);
-  months = months % 12;
+  const years = Math.floor(months / 12)
+  months = months % 12
 
-  const yearLabel = years > 0 ? `${years} Year${years > 1 ? "s" : ""}` : "";
-  const monthLabel = months > 0 ? `${months} Month${months > 1 ? "s" : ""}` : "";
+  const yearLabel = years > 0 ? `${years} Year${years > 1 ? "s" : ""}` : ""
+  const monthLabel = months > 0 ? `${months} Month${months > 1 ? "s" : ""}` : ""
 
-  return [yearLabel, monthLabel].filter(Boolean).join(" ");
+  return [yearLabel, monthLabel].filter(Boolean).join(" ")
 }
-
 
 function Experience() {
   return (
     <section id="experience" className="py-5 bg-light">
       <Container>
-        <div className="text-center mb-5">
-          <h2 className="display-7 fw-bold mb-1">Work Experience</h2>
-         <div className="mx-auto" style={{ height: "4px", width: "80px", backgroundColor: "var(--bs-primary)" }}></div>
-        
+        <div className="text-center mb-5" data-aos="fade-up">
+          <h2 className="fw-bold mb-1">Work Experience</h2>
+          <div className="mx-auto" style={{ height: "4px", width: "80px", backgroundColor: "var(--bs-primary)" }}></div>
         </div>
 
         <div className="timeline">
           {experiences.map((exp, index) => (
-            <Card key={index} className="mb-4 border-0 shadow-sm">
+            <Card key={index} className="mb-4 border-0 shadow-sm" data-aos="fade-up" data-aos-delay={index*50}>
               <Card.Body className="p-4">
-                <Row>
-                  <Col lg={12}>
-                    <div className="d-flex flex-column flex-md-row justify-content-between mb-4">
+                <div className="d-flex">
+                  <div className="experience-icon me-4">
+                    <i className="bi bi-briefcase text-primary"></i>
+                  </div>
+                  <div className="flex-grow-1">
+                    <div className="d-flex flex-column flex-md-row justify-content-between mb-3">
                       <div>
                         <h3 className="fs-4 fw-semibold mb-1">{exp.title}</h3>
                         <div className="text-muted">{exp.company}</div>
@@ -93,15 +93,16 @@ function Experience() {
                     </div>
 
                     <h4 className="fs-5 fw-medium mb-3">Responsibilities:</h4>
-                    <ul className="text-muted">
+                    <ul className="experience-responsibilities">
                       {exp.responsibilities.map((resp, respIndex) => (
                         <li key={respIndex} className="mb-2">
+                          <i className="bi bi-check-circle-fill text-primary me-2"></i>
                           {resp}
                         </li>
                       ))}
                     </ul>
-                  </Col>
-                </Row>
+                  </div>
+                </div>
               </Card.Body>
             </Card>
           ))}

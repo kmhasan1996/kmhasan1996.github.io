@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { Container, Row, Col, Card, Form, Button, Alert } from "react-bootstrap"
-
+import "./Contact.css"
 function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -50,7 +50,7 @@ function Contact() {
   return (
     <section id="contact" className="py-5">
       <Container>
-        <div className="text-center mb-5">
+        <div className="text-center mb-5" data-aos="fade-up">
           <h2 className="display-7 fw-bold mb-1">Contact Me</h2>
          <div className="mx-auto" style={{ height: "4px", width: "80px", backgroundColor: "var(--bs-primary)" }}></div>
         
@@ -58,7 +58,7 @@ function Contact() {
 
         <Row className="g-4">
           <Col lg={8}>
-            <Card className="border-0 shadow-sm">
+            <Card className="border-0 shadow-sm" data-aos="fade-right" data-aos-delay={50}>
               <Card.Body className="p-4">
                 <Form onSubmit={handleSubmit}>
                   <Row className="mb-3">
@@ -140,69 +140,67 @@ function Contact() {
           </Col>
 
           <Col lg={4}>
-            <Card className="h-100 border-0 shadow-sm">
-              <Card.Body className="p-4">
-                <h3 className="fs-4 fw-semibold mb-4">Contact Information</h3>
+           <Card className="h-100 border-0 shadow-sm" data-aos="fade-left" data-aos-delay={50}>
+      <Card.Body className="p-4">
+        <h3 className="fs-4 fw-semibold mb-4">Contact Information</h3>
 
-                <div className="d-flex flex-column gap-4">
-                  <div className="d-flex">
-                    <div className=" rounded-circle p-3 me-3">
-                      <i className="bi bi-envelope text-primary"></i>
-                    </div>
-                    <div>
-                      <h4 className="fs-6 fw-medium">Email</h4>
-                      <a href="mailto:khandokarmahidyhasan@gmail.com" className="text-muted text-decoration-none">
-                        khandokarmahidyhasan@gmail.com
-                      </a>
-                    </div>
-                  </div>
+        <div className="d-flex flex-column gap-4">
+          <div className="d-flex align-items-start">
+            <div className="contact-icon-wrapper me-3">
+              <i className="bi bi-envelope text-primary"></i>
+            </div>
+            <div>
+              <h4 className="fs-6 fw-medium mb-1">Email</h4>
+              <a href="mailto:khandokarmahidyhasan@gmail.com" className="text-muted text-decoration-none">
+                khandokarmahidyhasan@gmail.com
+              </a>
+            </div>
+          </div>
 
-                  <div className="d-flex">
-                    <div className=" rounded-circle p-3 me-3">
-                      <i className="bi bi-telephone text-primary"></i>
-                    </div>
-                    <div>
-                      <h4 className="fs-6 fw-medium">Phone</h4>
-                      <a href="tel:+8801749796054" className="text-muted text-decoration-none d-block">
-                        +880 1749 79 60 54
-                      </a>
-                      <a href="tel:+8801811478206" className="text-muted text-decoration-none">
-                        +880 1811 47 82 06
-                      </a>
-                    </div>
-                  </div>
+          <div className="d-flex align-items-start">
+            <div className="contact-icon-wrapper me-3">
+              <i className="bi bi-telephone text-primary"></i>
+            </div>
+            <div>
+              <h4 className="fs-6 fw-medium mb-1">Phone</h4>
+              <a href="tel:+8801749796054" className="text-muted text-decoration-none d-block">
+                +880 1749 79 60 54
+              </a>
+              <a href="tel:+8801811478206" className="text-muted text-decoration-none">
+                +880 1811 47 82 06
+              </a>
+            </div>
+          </div>
 
-                  <div className="d-flex">
-                    <div className=" rounded-circle p-3 me-3">
-                      <i className="bi bi-geo-alt text-primary"></i>
-                    </div>
-                    <div>
-                      <h4 className="fs-6 fw-medium">Location</h4>
-                      <p className="text-muted mb-0">
-                        House #44, Block-A, Sayed Nagor, Vatara, Natun Bazar, Dhaka-1212
-                      </p>
-                    </div>
-                  </div>
+          <div className="d-flex align-items-start">
+            <div className="contact-icon-wrapper me-3">
+              <i className="bi bi-geo-alt text-primary"></i>
+            </div>
+            <div>
+              <h4 className="fs-6 fw-medium mb-1">Location</h4>
+              <p className="text-muted mb-0">House #44, Block-A, Sayed Nagor, Vatara, Natun Bazar, Dhaka-1212</p>
+            </div>
+          </div>
 
-                  <div className="d-flex">
-                    <div className=" rounded-circle p-3 me-3">
-                      <i className="bi bi-linkedin text-primary"></i>
-                    </div>
-                    <div>
-                      <h4 className="fs-6 fw-medium">LinkedIn</h4>
-                      <a
-                        href="https://www.linkedin.com/in/kmhasan96/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-muted text-decoration-none"
-                      >
-                        linkedin.com/in/kmhasan96
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </Card.Body>
-            </Card>
+          <div className="d-flex align-items-start">
+            <div className="contact-icon-wrapper me-3">
+              <i className="bi bi-linkedin text-primary"></i>
+            </div>
+            <div>
+              <h4 className="fs-6 fw-medium mb-1">LinkedIn</h4>
+              <a
+                href="https://www.linkedin.com/in/kmhasan96/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted text-decoration-none"
+              >
+                linkedin.com/in/kmhasan96
+              </a>
+            </div>
+          </div>
+        </div>
+      </Card.Body>
+    </Card>
           </Col>
         </Row>
       </Container>

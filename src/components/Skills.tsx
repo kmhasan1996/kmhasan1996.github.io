@@ -47,7 +47,7 @@ function Skills() {
   return (
     <section id="skills" className="py-5">
       <Container>
-        <div className="text-center mb-5">
+        <div className="text-center mb-5" data-aos="fade-up">
           <h2 className="display-7 fw-bold mb-1">Skills & Expertise</h2>
           <div className="mx-auto" style={{ height: "4px", width: "80px", backgroundColor: "var(--bs-primary)" }}></div>
         
@@ -55,7 +55,7 @@ function Skills() {
         <Row className="g-4">
           {skillCategories.map((category, index) => (
             <Col key={index} md={6} lg={3}>
-              <Card className="h-100 border-0 shadow-sm">
+              <Card className="h-100 border-0 shadow-sm" data-aos="fade-up" data-aos-delay={index * 50}>
                 <Card.Body className="p-4">
                   <div className="d-flex align-items-center mb-3">
                     <div className="text-primary me-2">{category.icon}</div>

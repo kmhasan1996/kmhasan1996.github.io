@@ -1,23 +1,22 @@
 import { Container, Row, Col, Card, Badge } from "react-bootstrap"
+import "./About.css"
 
 function About() {
   return (
     <section id="about" className="py-5 py-md-6 bg-light">
       <Container>
-        <div className="text-center mb-5">
+        <div className="text-center mb-5" data-aos="fade-up">
           <h2 className="display-7 fw-bold mb-1">About Me</h2>
           <div className="mx-auto" style={{ height: "4px", width: "80px", backgroundColor: "var(--bs-primary)" }}></div>
         </div>
 
         <Row className="g-4">
           <Col lg={8}>
-            <Card className="h-100 border-0 shadow-sm">
+            <Card className="h-100 border-0 shadow-sm" data-aos="fade-right" data-aos-delay={50}>
               <Card.Body className="p-4">
                 <h3 className="fs-4 fw-semibold mb-4">Career Summary</h3>
                 <p className="text-muted mb-4 text-justify">
-                  Software Engineer with 5+ years of experience specializing in ASP.NET and ASP.NET Core development.
-                  Proven track record in designing and implementing scalable web applications, utilizing full-stack
-                  development skills and expertise in database management.
+                 Software Engineer with 5+ years of experience specializing in ASP.NET and ASP.NET Core development. Proven track record in designing and implementing scalable web applications, utilizing full-stack development skills and expertise in database management. Adaptable team player with strong analytical and troubleshooting abilities, committed to delivering high-quality software solutions using Agile methodologies. Excellent communication skills and a continuous learner. Additionally, I have over 3 years of experience working with a Canadian client.
                 </p>
 
                 <h3 className="fs-4 fw-semibold mb-3">Professional Highlights</h3>
@@ -33,10 +32,17 @@ function About() {
           </Col>
 
           <Col lg={4}>
-            <Card className="h-100 border-0 shadow-sm">
+            <Card className="h-100 border-0 shadow-sm" data-aos="fade-left" data-aos-delay={50}>
               <Card.Body className="p-4">
                 <h3 className="fs-4 fw-semibold mb-4">Personal Details</h3>
                 <div className="d-flex flex-column gap-3">
+                   <div className="profile-image-container">
+                      <img
+                        src={`${process.env.PUBLIC_URL}/profile-photo.jpg`}
+                        alt="Khandokar Mahidy Hasan"
+                        className="profile-image img-fluid"
+                      />
+                    </div>
                   <div>
                     <p className="fw-medium mb-1">Name</p>
                     <p className="text-muted mb-0">Khandokar Mahidy Hasan</p>

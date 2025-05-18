@@ -11,6 +11,12 @@ import Projects from "./components/Projects"
 import Education from "./components/Education"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
+import FloatingWhatsApp from "./components/FloatingWhatsApp"
+
+// Import AOS
+// @ts-ignore
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 // Create Theme Context
 const ThemeContext = createContext({
@@ -50,6 +56,15 @@ export function useTheme() {
 }
 
 function App() {
+   // Initialize AOS
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: true,
+      easing: "ease-in-out",
+      offset: 100,
+    })
+  }, [])
   return (
     <ThemeProvider>
       <Router>
@@ -65,6 +80,7 @@ function App() {
             <Contact />
           </main>
           <Footer />
+            <FloatingWhatsApp />
         </div>
       </Router>
     </ThemeProvider>

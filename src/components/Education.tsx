@@ -34,7 +34,7 @@ function Education() {
   return (
     <section id="education" className="py-5 bg-light">
       <Container>
-        <div className="text-center mb-5">
+        <div className="text-center mb-5" data-aos="fade-up">
           <h2 className="display-7 fw-bold mb-1">Education & Training</h2>
          <div className="mx-auto" style={{ height: "4px", width: "80px", backgroundColor: "var(--bs-primary)" }}></div>
         
@@ -49,7 +49,7 @@ function Education() {
 
             <div className="d-flex flex-column gap-4">
               {educations.map((edu, index) => (
-                <Card key={index} className="border-0 shadow-sm">
+                <Card key={index} className="border-0 shadow-sm" data-aos="fade-right" data-aos-delay={index * 50}>
                   <Card.Body className="p-4">
                     <h4 className="fs-5 fw-semibold mb-3">{edu.degree}</h4>
                     <div className="text-muted">
@@ -80,7 +80,7 @@ function Education() {
 
             <div className="d-flex flex-column gap-4">
               {trainings.map((training, index) => (
-                <Card key={index} className="border-0 shadow-sm">
+                <Card key={index} className="border-0 shadow-sm" data-aos="fade-left" data-aos-delay={index * 50}>
                   <Card.Body className="p-4">
                     <h4 className="fs-5 fw-semibold mb-3">{training.course}</h4>
                     <div className="text-muted">
