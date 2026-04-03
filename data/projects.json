@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "title": "e-waste Registry BD (World Bank Funded)",
+      "title": "e-Waste Registry BD (World Bank Funded)",
       "description": "Bangladesh's comprehensive platform for electronic waste management. Connecting producers, importers, collectors, and recyclers to create a circular economy for electronic products.",
       "technologies": ["ASP.NET Core 10.0",  "MySQL", "Entity Framework Core 10.0", "LINQ", "HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
       "link": "http://103.209.40.121:7000/"
