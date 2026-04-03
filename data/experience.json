@@ -1,0 +1,44 @@
+{
+  "experiences": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Technology and Business Solutions Ltd.",
+      "period": "Jan 2023 - Present",
+      "duration": "3 Years 4 Months",
+      "responsibilities": [
+        "Analyze system requirements and prioritize tasks",
+        "Write clean, testable code using .NET programming languages",
+        "Develop technical specifications and architecture",
+        "Review and refactor code",
+        "Deploy fully functional applications",
+        "Support junior developers in their work",
+        "Document development and operational procedures",
+        "Research and implement new technologies and features"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Technology and Business Solutions Ltd.",
+      "period": "May 2020 - Dec 2022",
+      "duration": "2 Years 8 Months",
+      "responsibilities": [
+        "Worked with internal teams to design and develop new applications from scratch",
+        "Maintained and added new features and functionalities to existing software",
+        "Implemented both front-end and back-end for smooth-performing web applications",
+        "Wrote clean, readable, and reusable code with proper commenting and documentation",
+        "Collaborated effectively in a team environment and performed well under pressure",
+        "Evaluated and identified new technologies for implementation"
+      ]
+    },
+    {
+      "title": "Intern Software Engineer",
+      "company": "Technology and Business Solutions Ltd.",
+      "period": "Mar 2020 - Apr 2020",
+      "duration": "2 Months",
+      "responsibilities": [
+        "Observed and learned the software development process",
+        "Handled front-end design and programming tasks"
+      ]
+    }
+  ]
+}

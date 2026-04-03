@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "title": "e-waste Registry BD (World Bank Funded)",
+      "description": "Bangladesh's comprehensive platform for electronic waste management. Connecting producers, importers, collectors, and recyclers to create a circular economy for electronic products.",
+      "technologies": ["ASP.NET Core 10.0",  "MySQL", "Entity Framework Core 10.0", "LINQ", "HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
+      "link": "http://103.209.40.121:7000/"
+    },
+    {
+      "title": "Learning Management System (LMS)",
+      "description": "Developed a training platform for the sales force, enabling employees to complete assigned courses within a defined timeline, take exams, and automatically generate certificates. The platform also includes additional functionalities.",
+      "technologies": ["ASP.NET Core 8.0", "AWS S3 Storage", "MSSQL", "Entity Framework Core 8.0", "LINQ", "HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
+      "link": null
+    },
+    {
+      "title": "FinCoachBD",
+      "description": "Apply Instantly for Loan, SME Loan & Credit Card from Anywhere to Your Desired Bangladeshi Bank Anytime.",
+      "technologies": ["ASP.NET Core 5.0", "MySQL", "Entity Framework Core 5.0", "LINQ", "HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
+      "link": "https://fincoachbd.com"
+    },
+    {
+      "title": "Electronics Tracking Activity (eTRAC)",
+      "description": "A web application and automation system designed to manage conference activities and coordinate with doctors and organizations for business-related topics.",
+      "technologies": ["ASP.NET", "MSSQL", "Entity Framework", "LINQ", "HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
+      "link": null
+    },
+    {
+      "title": "Electronics Purchase Requisition Management (ePRM)",
+      "description": "ePRM is a web application for managing purchase requisitions, featuring auto-generated approvers and structured approval workflows.",
+      "technologies": ["ASP.NET", "MSSQL", "Entity Framework", "LINQ", "HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
+      "link": null
+    },
+    {
+      "title": "Expensya",
+      "description": "Expensya is a web-based application for claiming daily expenses of a company's field workers through a structured system with an approval workflow.",
+      "technologies": ["ASP.NET", "AWS S3 Storage", "Microsoft SQL Server", "Entity Framework", "LINQ", "HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
+      "link": null
+    },
+    {
+      "title": "FinPac",
+      "description": "FinPac is a centralized web-based ERP application which includes Financial Accounting, Asset Accounting, Procurement & Purchase, Inventory/Material Management, Sales and Distribution and Management Accounting modules.",
+      "technologies": ["ASP.NET", ".NET Web API", "Microsoft SQL Server", "Entity Framework", "LINQ", "HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
+      "link": null
+    }
+  ]
+}

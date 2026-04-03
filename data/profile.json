@@ -1,0 +1,31 @@
+{
+  "name": "Khandokar Mahidy Hasan",
+  "title": ".NET Developer",
+  "logo": "Mahidy",
+  "logoHighlight": ".Dev",
+  "shortBio": "Software Engineer with 6+ years of experience specializing in ASP.NET and ASP.NET Core development. Building scalable web applications with full-stack development skills.",
+  "cvLink": "https://drive.google.com/file/d/13Snf4xnHbAVj9gJ3DLx1x6w1Ask_60kx/view?usp=sharing",
+  "profileImage": "/profile.jpg",
+  "socialLinks": {
+    "linkedin": "https://www.linkedin.com/in/kmhasan96/",
+    "email": "khandokarmahidyhasan@gmail.com",
+    "github": "https://github.com/kmhasan1996",
+    "whatsapp": "+8801749796054",
+    "facebook": "https://www.facebook.com/kmhasan1996"
+  },
+  "about": {
+    "careerSummary": "Software Engineer with 6+ years of experience specializing in ASP.NET and ASP.NET Core development. Proven track record in designing and implementing scalable web applications, utilizing full-stack development skills and expertise in database management. Adaptable team player with strong analytical and troubleshooting abilities, committed to delivering high-quality software solutions using Agile methodologies. Excellent communication skills and a continuous learner.",
+    "highlights": [
+      "6+ years of experience in ASP.NET and ASP.NET Core development",
+      "Expertise in designing and implementing scalable web applications",
+      "Strong knowledge of database management and ORM frameworks",
+      "Experience with Agile methodologies and project management tools"
+    ],
+    "personalDetails": {
+      "name": "Khandokar Mahidy Hasan",
+      "email": "khandokarmahidyhasan@gmail.com",
+      "location": "Dhaka, Bangladesh",
+      "languages": ["Bengali", "English"]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "skills": [
+    {
+      "category": "Backend Technologies",
+      "icon": "backend",
+      "items": ["ASP.NET", "ASP.NET Core", "LINQ", "Entity Framework", "Entity Framework Core"]
+    },
+    {
+      "category": "Frontend Technologies",
+      "icon": "frontend",
+      "items": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "jQuery"]
+    },
+    {
+      "category": "Database",
+      "icon": "database",
+      "items": ["MS SQL", "MySQL", "Stored Procedures", "Views", "Triggers", "Functions"]
+    },
+    {
+      "category": "Development Practices",
+      "icon": "practices",
+      "items": ["SOLID Design Principles", "Software Design Patterns", "MVC", "Repository Pattern", "Singleton Pattern"]
+    },
+    {
+      "category": "Version Control & Tools",
+      "icon": "tools",
+      "items": ["Git", "SVN", "Trello", "iceScrum"]
+    },
+    {
+      "category": "Methodologies",
+      "icon": "methodologies",
+      "items": ["Agile/Scrum", "Waterfall"]
+    },
+    {
+      "category": "Server & Deployment",
+      "icon": "server",
+      "items": ["Microsoft Windows Server", "IIS", "AWS S3 Storage"]
+    },
+    {
+      "category": "Other Skills",
+      "icon": "other",
+      "items": ["RESTful Web API", "RDLC Reports", "Crystal Reports", "iTextSharp", "Windows Services/Scheduler"]
+    }
+  ]
+}

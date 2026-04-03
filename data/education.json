@@ -1,0 +1,30 @@
+{
+  "education": [
+    {
+      "degree": "B.Sc. in Computer Science & Engineering (CSE)",
+      "institution": "United International University (UIU)",
+      "location": "Dhaka",
+      "year": "2019"
+    },
+    {
+      "degree": "Higher Secondary Certificate (H.S.C)",
+      "institution": "Rajshahi Govt. City College",
+      "location": "Rajshahi",
+      "year": "2013"
+    }
+  ],
+  "training": [
+    {
+      "title": "Web Application Development - Dot Net",
+      "institution": "BASIS Institute of Technology & Management (BITM)",
+      "location": "Dhaka",
+      "period": "Sep 2019 - Dec 2019"
+    },
+    {
+      "title": "Web Design & Development",
+      "institution": "Center for Development of IT Professionals (CDIP)",
+      "location": "Dhaka",
+      "period": "May 2017 - Dec 2017"
+    }
+  ]
+}
