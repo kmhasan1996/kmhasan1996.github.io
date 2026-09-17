@@ -1,0 +1,370 @@
+{
+  "profile": {
+    "name": "Khandokar Mahidy Hasan",
+    "title": ".NET Developer",
+    "logo": "Mahidy",
+    "logoHighlight": ".Dev",
+    "shortBio": "Senior Software Engineer with {YEARS}+ years of experience specializing in ASP.NET and ASP.NET Core development. Building scalable web applications with full-stack development skills.",
+    "cvLink": "https://drive.google.com/file/d/13Snf4xnHbAVj9gJ3DLx1x6w1Ask_60kx/view?usp=sharing",
+    "profileImage": "/profile.jpg",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/kmhasan96/",
+      "email": "khandokarmahidyhasan@gmail.com",
+      "github": "https://github.com/kmhasan1996",
+      "whatsapp": "+8801749796054",
+      "facebook": "https://www.facebook.com/kmhasan1996"
+    },
+    "about": {
+      "careerSummary": "Senior Software Engineer with {YEARS}+ years of experience specializing in ASP.NET and ASP.NET Core development. Proven track record in designing and implementing scalable web applications, utilizing full-stack development skills and expertise in database management. Adaptable team player with strong analytical and troubleshooting abilities, committed to delivering high-quality software solutions using Agile methodologies. Excellent communication skills and a continuous learner.",
+      "highlights": [
+        "{YEARS}+ years of experience in ASP.NET and ASP.NET Core development",
+        "Expertise in designing and implementing scalable web applications",
+        "Strong knowledge of database management and ORM frameworks",
+        "Experience with Agile methodologies and project management tools"
+      ],
+      "personalDetails": {
+        "name": "Khandokar Mahidy Hasan",
+        "email": "khandokarmahidyhasan@gmail.com",
+        "location": "Dhaka, Bangladesh",
+        "languages": [
+          "Bengali",
+          "English"
+        ]
+      }
+    }
+  },
+  "skills": [
+    {
+      "category": "Backend Technologies",
+      "icon": "backend",
+      "items": [
+        "ASP.NET",
+        "ASP.NET Core",
+        "LINQ",
+        "Entity Framework",
+        "Entity Framework Core"
+      ]
+    },
+    {
+      "category": "Frontend Technologies",
+      "icon": "frontend",
+      "items": [
+        "HTML5",
+        "CSS3",
+        "Bootstrap",
+        "JavaScript",
+        "jQuery"
+      ]
+    },
+    {
+      "category": "Database",
+      "icon": "database",
+      "items": [
+        "MS SQL",
+        "MySQL",
+        "Stored Procedures",
+        "Views",
+        "Triggers",
+        "Functions"
+      ]
+    },
+    {
+      "category": "Development Practices",
+      "icon": "practices",
+      "items": [
+        "SOLID Design Principles",
+        "Software Design Patterns",
+        "MVC",
+        "Repository Pattern",
+        "Singleton Pattern"
+      ]
+    },
+    {
+      "category": "Version Control & Tools",
+      "icon": "tools",
+      "items": [
+        "Git",
+        "SVN",
+        "Trello",
+        "iceScrum"
+      ]
+    },
+    {
+      "category": "Methodologies",
+      "icon": "methodologies",
+      "items": [
+        "Agile/Scrum",
+        "Waterfall"
+      ]
+    },
+    {
+      "category": "Server & Deployment",
+      "icon": "server",
+      "items": [
+        "Microsoft Windows Server",
+        "IIS",
+        "AWS S3 Storage"
+      ]
+    },
+    {
+      "category": "Other Skills",
+      "icon": "other",
+      "items": [
+        "RESTful Web API",
+        "RDLC Reports",
+        "Crystal Reports",
+        "iTextSharp",
+        "Windows Services/Scheduler"
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "CSL Software Resources Ltd.",
+      "companyUrl": "https://cslsoft.com.bd/",
+      "period": "Apr 2026 - Present",
+      "duration": "6 Months",
+      "responsibilities": [
+        "Developing AI agents and adopting an AI-assisted, development-first approach to improve productivity and software engineering workflows.",
+        "Migrating modules from the legacy KANDAREE ERP to a modern technology stack using .NET Core Web API and React.js.",
+        "Maintaining inventory modules including Receive, QC, Issue, Loan Advice, Loan Requisition, Loan Recovery, and Loan Refund.",
+        "Implementing SKU Split, Item Transfer, Inventory Closing, Left Over Sales, and Left Over Reuse workflows.",
+        "Developing backend and database logic for accurate inventory transactions, stock movements, and period-end closing.",
+        "Optimizing SQL queries and .NET code to improve system performance, reliability, and transaction processing.",
+        "Performing regular bug fixing, troubleshooting, and client support to ensure system stability and smooth operations."
+      ]
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Technology and Business Solutions Ltd.",
+      "companyUrl": "https://www.tecbsl.com/",
+      "period": "Jan 2023 - Mar 2026",
+      "duration": "3 Years 3 Months",
+      "responsibilities": [
+        "Analyzed system requirements and prioritized tasks",
+        "Wrote clean, testable code using .NET programming languages",
+        "Developed technical specifications and architecture",
+        "Reviewed and refactored code",
+        "Deployed fully functional applications",
+        "Supported junior developers in their work",
+        "Documented development and operational procedures",
+        "Researched and implemented new technologies and features"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Technology and Business Solutions Ltd.",
+      "companyUrl": "https://www.tecbsl.com/",
+      "period": "Mar 2020 - Dec 2022",
+      "duration": "2 Years 10 Months",
+      "responsibilities": [
+        "Worked with internal teams to design and develop new applications from scratch",
+        "Maintained and added new features and functionalities to existing software",
+        "Implemented both front-end and back-end for smooth-performing web applications",
+        "Wrote clean, readable, and reusable code with proper commenting and documentation",
+        "Collaborated effectively in a team environment and performed well under pressure",
+        "Evaluated and identified new technologies for implementation"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "KANDAREE - Apparel Business Management",
+      "company": "CSL Software Resources Ltd.",
+      "description": "Kandaree is an integrated solution that covers the entire process of an apparel manufacturing unit. From price quotation to actual shipment and its proceeds realization.",
+      "technologies": [
+        "ASP.NET Core Web API 8.0",
+        "MS SQL",
+        "Entity Framework Core 8.0",
+        "ADO.NET",
+        "React.js 17"
+      ],
+      "link": null,
+      "companyUrl": "https://cslsoft.com.bd/"
+    },
+    {
+      "title": "SHOMOSTEE - Store Management",
+      "company": "CSL Software Resources Ltd.",
+      "description": "SHOMOSTEE is an inventory and warehouse management system for apparel businesses. It manages Material Receive, QC, Issue, Loan, SKU Split, Item Transfer, Inventory Closing, Left Over Sales, and Left Over Reuse, ensuring accurate stock tracking and efficient warehouse operations.",
+      "technologies": [
+        "ASP.NET Core Web API 3.1",
+        "MS SQL",
+        "Entity Framework Core 3.1",
+        "ADO.NET",
+        "React.js 16"
+      ],
+      "link": null,
+      "companyUrl": "https://cslsoft.com.bd/"
+    },
+    {
+      "title": "e-Waste Registry",
+      "company": "Technology and Business Solutions Ltd.",
+      "description": "Bangladesh's comprehensive platform for electronic waste management. Connecting producers, importers, collectors, and recyclers to create a circular economy for electronic products.",
+      "technologies": [
+        "ASP.NET Core 10.0",
+        "MySQL",
+        "Entity Framework Core 10.0",
+        "LINQ",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
+        "jQuery"
+      ],
+      "link": "http://103.209.40.121:7000/",
+      "companyUrl": "https://www.tecbsl.com/"
+    },
+    {
+      "title": "Learning Management System (LMS)",
+      "company": "Technology and Business Solutions Ltd.",
+      "description": "Developed a training platform for the sales force, enabling employees to complete assigned courses within a defined timeline, take exams, and automatically generate certificates. The platform also includes additional functionalities.",
+      "technologies": [
+        "ASP.NET Core 8.0",
+        "AWS S3 Storage",
+        "MSSQL",
+        "Entity Framework Core 8.0",
+        "LINQ",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
+        "jQuery"
+      ],
+      "link": null,
+      "companyUrl": "https://www.tecbsl.com/"
+    },
+    {
+      "title": "FinCoachBD",
+      "company": "Technology and Business Solutions Ltd.",
+      "description": "Apply Instantly for Loan, SME Loan & Credit Card from Anywhere to Your Desired Bangladeshi Bank Anytime.",
+      "technologies": [
+        "ASP.NET Core 5.0",
+        "MySQL",
+        "Entity Framework Core 5.0",
+        "LINQ",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
+        "jQuery"
+      ],
+      "link": "https://fincoachbd.com",
+      "companyUrl": "https://www.tecbsl.com/"
+    },
+    {
+      "title": "Electronics Tracking Activity (eTRAC)",
+      "company": "Technology and Business Solutions Ltd.",
+      "description": "A web application and automation system designed to manage conference activities and coordinate with doctors and organizations for business-related topics.",
+      "technologies": [
+        "ASP.NET",
+        "MSSQL",
+        "Entity Framework",
+        "LINQ",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
+        "jQuery"
+      ],
+      "link": null,
+      "companyUrl": "https://www.tecbsl.com/"
+    },
+    {
+      "title": "Electronics Purchase Requisition Management (ePRM)",
+      "company": "Technology and Business Solutions Ltd.",
+      "description": "ePRM is a web application for managing purchase requisitions, featuring auto-generated approvers and structured approval workflows.",
+      "technologies": [
+        "ASP.NET",
+        "MSSQL",
+        "Entity Framework",
+        "LINQ",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
+        "jQuery"
+      ],
+      "link": null,
+      "companyUrl": "https://www.tecbsl.com/"
+    },
+    {
+      "title": "Expensya",
+      "company": "Technology and Business Solutions Ltd.",
+      "description": "Expensya is a web-based application for claiming daily expenses of a company's field workers through a structured system with an approval workflow.",
+      "technologies": [
+        "ASP.NET",
+        "AWS S3 Storage",
+        "Microsoft SQL Server",
+        "Entity Framework",
+        "LINQ",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
+        "jQuery"
+      ],
+      "link": null,
+      "companyUrl": "https://www.tecbsl.com/"
+    },
+    {
+      "title": "FinPac",
+      "company": "Technology and Business Solutions Ltd.",
+      "description": "FinPac is a centralized web-based ERP application which includes Financial Accounting, Asset Accounting, Procurement & Purchase, Inventory/Material Management, Sales and Distribution and Management Accounting modules.",
+      "technologies": [
+        "ASP.NET",
+        ".NET Web API",
+        "Microsoft SQL Server",
+        "Entity Framework",
+        "LINQ",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
+        "jQuery"
+      ],
+      "link": null,
+      "companyUrl": "https://www.tecbsl.com/"
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. in Computer Science & Engineering (CSE)",
+      "institution": "United International University (UIU)",
+      "location": "Dhaka",
+      "year": "2019"
+    },
+    {
+      "degree": "Higher Secondary Certificate (H.S.C)",
+      "institution": "Rajshahi Govt. City College",
+      "location": "Rajshahi",
+      "year": "2013"
+    }
+  ],
+  "training": [
+    {
+      "title": "Web Application Development - Dot Net",
+      "institution": "BASIS Institute of Technology & Management (BITM)",
+      "location": "Dhaka",
+      "period": "Sep 2019 - Dec 2019"
+    },
+    {
+      "title": "Web Design & Development",
+      "institution": "Center for Development of IT Professionals (CDIP)",
+      "location": "Dhaka",
+      "period": "May 2017 - Dec 2017"
+    }
+  ],
+  "contact": {
+    "email": "khandokarmahidyhasan@gmail.com",
+    "phones": [
+      "+880 1749 79 60 54",
+      "+880 1811 47 82 06"
+    ],
+    "address": "Sayed Nagor, Vatara, Natun Bazar, Dhaka-1212",
+    "linkedin": "linkedin.com/in/kmhasan96",
+    "linkedinUrl": "https://www.linkedin.com/in/kmhasan96/",
+    "facebook": "facebook.com/kmhasan1996",
+    "facebookUrl": "https://www.facebook.com/kmhasan1996"
+  }
+}
